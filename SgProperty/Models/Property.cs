@@ -1,0 +1,35 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.ComponentModel.DataAnnotations;
+
+namespace SgProperty.Models
+{
+    public class Property
+    {
+        //TO-DO Property Model Attributes
+        public int PropertyID { get; set; }
+
+        public string PropertyName { get; set; }
+        public string Address { get; set; }
+        public string PropertyType { get; set; }
+        public double AskingPrice { get; set; }
+        public double AgreedPrice { get; set; }
+        public string Image { get; set; }
+        public double Latitude { get; set; }
+        public double Longitude { get; set; }
+        public string ListingType { get; set; }
+        public double Size { get; set; }
+        public int CountClicked { get; set; }
+        public int EstateID { get; set; }
+        public string EstateName { get; set; }
+        public int DistrictID { get; set; }
+        public string DistrictName { get; set; }
+        public int AgentID { get; set; }
+        public string CompanyName { get; set; }
+        public string DatePosted { get; set; }
+        public string ExclusiveStartDate { get; set; }
+        public string ExpiryDate { get; set; }
+    }
+}
